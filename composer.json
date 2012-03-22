@@ -19,6 +19,11 @@
                     "url": "https://github.com/cordoval/ResourceWatcher/zipball/master",
                     "type": "zip"
                 },
+                "source": {
+                    "url": "https://github.com/cordoval/ResourceWatcher",
+                    "type": "git",
+                    "reference": "master"
+                },
                 "autoload": {
                     "psr-0": { "Symfony\\Component\\ResourceWatcher": "" }
                 },
