@@ -1,0 +1,29 @@
+{
+    "name": "cordoval/sismo-watcher",
+    "config" : { "bin-dir": "." },
+    "autoload": {
+            "psr-0": { "PHPPeru\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/config": "dev-master",
+        "cordoval/resource-watcher": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "cordoval/resource-watcher",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/cordoval/ResourceWatcher/zipball/master",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "psr-0": { "Symfony\\Component\\ResourceWatcher": "" }
+                },
+                "target-dir": "Symfony/Component/ResourceWatcher"
+            }
+        }
+    ]
+}
