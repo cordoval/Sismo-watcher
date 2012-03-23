@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPPeru\Kata;
+namespace PHPPeru\SismoWatcher;
 
 use Symfony\Component\ResourceWatcher\ResourceWatcher;
 use Symfony\Component\ResourceWatcher\Event\Event;
