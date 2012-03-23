@@ -7,7 +7,9 @@
     "require": {
         "php": ">=5.3.2",
         "symfony/config": "dev-master",
-        "cordoval/resource-watcher": "dev-master"
+        "cordoval/resource-watcher": "dev-master",
+        "symfony/process": "dev-master",
+        "symfony/console": "dev-master"
     },
     "repositories": [
         {
